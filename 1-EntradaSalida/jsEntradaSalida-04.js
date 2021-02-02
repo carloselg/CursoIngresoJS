@@ -4,6 +4,17 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	//Declaracion
+	var datoingresado;
+
+	//Asignacion
+
+	datoingresado = prompt("Ingresa el dato");
+
+	//Mostrar
+
+	txtIdNombre.value = datoingresado;
+	
+
 }
 
